@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Cookie Checker</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <!-- Files section -->
+    <h2>Files</h2>
+    
+    <div>
+      <div class="inline-block filediv right-border" id="input-file-div">
+        <h4>Input</h4>
+        <button class="openfile" id="inputfile">Open file</button>
+        <p class="filepath" id="inputfilepath">no file selected</p>
+      </div>
+      <div class="inline-block filediv">
+        <h4>Output</h4>
+        <button class="openfile" id="outputfile">Open file</button>
+        <p class="filepath" id="outputfilepath">no file selected</p>
+      </div>
+    </div>
+
+    <!-- Output section -->
+    <h2>Output</h2>
+    
+    <div>
+      <div class="output" id="output">
+        <!-- Output items are put here -->
+        <p class="output-item" id="nothing-here">Nothing to see here...</p>
+      </div>
+    </div>
+
+    <!-- Options section -->
+    <h2>Options</h2>
+    
+    <div>
+      <button class="control control-green" id="startbtn">Start</button>
+      <button class="control control-orange" id="cancelbtn">Cancel</button>
+      <input type="text" class="text-input" id="delay-input" placeholder="Check delay (seconds)">
+    </div>
+  </body>
+</html>

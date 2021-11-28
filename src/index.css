@@ -1,0 +1,121 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.inline {
+  display: inline;
+}
+.inline-block {
+  display: inline-block;
+}
+
+.filediv {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+/* remove padding from first file div */
+#input-file-div {
+  padding-left: 0px;
+}
+.right-border {
+  border-right: solid 1px rgba(0, 0, 0, 0.13);
+}
+
+.openfile {
+  border: none;
+  border-radius: 3px;
+  background-color: #d1d1d1;
+  padding: 5px;
+  
+  transition: 0.1s;
+}
+.openfile:active {
+  filter: brightness(0.8);
+
+  transition: 0.05s;
+}
+
+h4 {
+  margin: 5px 0px 5px 0px;
+  font-size: 15px;
+  color: rgb(61, 61, 61);
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 5px 0px 5px 0px
+}
+
+
+.filepath {
+  font-size: 13px;
+  color: rgb(85, 85, 85);
+  text-overflow: ellipsis;
+}
+
+h1, h2 {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.199);
+}
+
+.output {
+  width: 96%;
+  height: 200px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.144);
+  padding-top: 5px;
+  overflow: scroll;
+}
+.output-item {
+  padding: 1px 0px 1px 5px;
+  margin: 0px;
+  font-size: 14px;
+  color: rgb(43, 43, 43);
+
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.199);
+
+  transition: 0.1s;
+}
+.output-item:hover {
+  backdrop-filter: brightness(0.95);
+  
+  transition: 0.05s;
+}
+
+#nothing-here {
+  color: rgb(122, 122, 122);
+}
+
+
+.control {
+  padding: 7px;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  background-color: rgb(75, 156, 223);
+  color: white;
+  font-weight: 600;
+
+  transition: 0.1s;
+}
+.control:active {
+  filter: brightness(0.9);
+  
+  transition: 0.05s;
+}
+
+.control-green {
+  background-color: rgb(77, 190, 82);
+}
+.control-orange {
+  background-color: rgb(221, 174, 45);
+}
+
+
+.text-input {
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 7px;
+  background-color: rgb(231, 231, 231);
+  border: 1px solid rgba(0, 0, 0, 0.185);
+}

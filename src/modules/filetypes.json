@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Plain text",
+        "extensions": ["txt", "text"]
+    },
+    {
+        "name": "Log files",
+        "extensions": ["log"]
+    }
+]
